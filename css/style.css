@@ -31,6 +31,7 @@
 .navbar-toggler-icon{
     box-shadow: 0 0 5px rgb(20, 16, 16);
 }
+
 /*-- HEADER END ---*/ 
 /*--- JUMPBOTRON START --*/
 .jumbotron{
@@ -67,8 +68,7 @@
 
 /* JUMBOTRON END*/ 
 
-/* CAROUSEL */
-/*--- CAROUSEL END ---*/
+/* CAROUSEL NO TIENE CSS AGREGADO*/
 
 /*----ABOUT US MAIN ----*/
 .bg-au{
@@ -160,6 +160,33 @@
 }
 
 /*-----ABOUT US END---*/
+
+/*---- OUR MISSION START---*/
+
+.bg-ourmission{
+    background-image: url(../media/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 20px;
+}
+.om-title{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.563em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+
+}
+
+.om-paragraph{
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    line-height: 20px;
+    padding-right: 60px;
+}
+
 
 /*---FOOTER START---*/
 .footer{
