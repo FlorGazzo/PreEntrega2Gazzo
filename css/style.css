@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+/*--- HEADER----*/
+
+.logo{
+    width: 90px;
+    height: 60px;
+}
+
+.navbar{
+    background-color: rgb(247, 7, 118);
+    color: rgb(20, 16, 16);
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 0 0 3px rgb(20, 16, 16);
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    transition: all ease;
+    color:rgb(20, 16, 16);
+}
+
+.navbar-toggler-icon{
+    box-shadow: 0 0 5px rgb(20, 16, 16);
+}
+/*-- HEADER END ---*/ 
+/*--- JUMPBOTRON START --*/
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../media/images/sobrenosotros.png");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border-radius: 0;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.75em;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+/* JUMBOTRON END*/ 
+
+/* CAROUSEL */
+/*--- CAROUSEL END ---*/
+
+/*----ABOUT US MAIN ----*/
+.bg-au{
+    background-image: url("../media/images/backgr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 20px;
+}
+
+.au-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.563em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.au-paragraph{
+    margin: 1.563rem;
+    color: rgb(240, 248, 255);
+    text-align: justify;
+}
+
+.item{
+    height: 300px;
+    border: 2px solid #000;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.item:hover{
+    filter: grayscale(0%);
+}
+
+.item1{
+    background-image: url("../media/images/1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    background-image: url("../media/images/2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    background-image: url("../media/images/3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    background-image: url("../media/images/4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    background-image: url("../media/images/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item6{
+    background-image: url("../media/images/6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item7{
+    background-image: url("../media/images/7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item8{
+    background-image: url("../media/images/8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item9{
+    background-image: url("../media/images/9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*-----ABOUT US END---*/
+
+/*---FOOTER START---*/
+.footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 16, 16);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media i{
+    color: #C3195D;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.social-media i:hover{
+    transform: scale(1.5);
+}
